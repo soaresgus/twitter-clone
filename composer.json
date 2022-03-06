@@ -1,0 +1,17 @@
+{
+    "name": "NinjaFramework",
+    "require": {
+        "php": ">= 7.0"
+    },
+    "authors": [
+        {
+            "name": "Gustavo Soares de Oliveira"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "NF\\": "vendor/NF/"
+        }
+    }
+}
